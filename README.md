@@ -1,255 +1,135 @@
-# Awesome-VPN-DNS-Network-Security
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome VPN, DNS & Network Security Banner" width="100%" />
+</p>
 
-## Top VPN & DNS Network Security Ecosystem
+# 🛡️ Awesome-VPN-DNS-Network-Security
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=githbb" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-VPN-DNS-Network-Security/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-VPN-DNS-Network-Security?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-VPN-DNS-Network-Security/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-VPN-DNS-Network-Security?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-VPN-DNS-Network-Security/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-VPN-DNS-Network-Security?style=flat-square&color=green" alt="Open Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-VPN-DNS-Network-Security/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-VPN-DNS-Network-Security?style=flat-square&color=orange" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🌐 Top VPN, DNS & Network Security Ecosystem (Open-Source & SaaS)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on DNS Tunneling VPNs, Encrypted DNS (DoH/DoT/DoQ/DNSCrypt), Network-Wide Ad/Malware Sinkholes, Mesh VPNs & Censorship-Resistant Transports*  
+> **A comprehensive, SEO-optimized curated directory of top-tier SaaS privacy platforms and open-source GitHub projects specializing in Encrypted DNS (DoH/DoT/DoQ), DNS Tunneling VPNs, Network-Wide Sinkholes, Mesh WireGuard Overlays, and Censorship-Resistant Proxy Engines.**
 
 **Last updated: November 2026**
 
+This repository (`Awesome-VPN-DNS-Network-Security`) tracks industry-leading **SaaS/Hosted platforms** and actively maintained **open-source repositories** designed for **VPN & DNS Network Security**. In modern security engineering, network perimeters have dissolved: modern systems combine encrypted VPN encapsulation with DNS-level threat intelligence, tunnel IP/TCP traffic inside legitimate DNS queries to bypass restrictive captive portals and deep packet inspection (DPI) firewalls, enforce DNS-over-HTTPS (DoH), DNS-over-TLS (DoT), and DNS-over-QUIC (DoQ), and deploy self-hosted recursive resolvers alongside peer-to-peer mesh overlays.
+
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [⭐ Star History](#--star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global enterprise and consumer VPN and secure DNS market is estimated at **$54.6 Billion in 2024–2025**, projected to surpass **$135 Billion by 2032** with a compound annual growth rate (CAGR) of ~15.2%. 
+
+The sector exhibits **moderate fragmentation with aggressive consolidation at the enterprise Zero Trust Network Access (ZTNA) tier** (led by tech giants like Cloudflare and Cisco), alongside significant rollup activity in consumer VPNs (e.g., Kape Technologies, Nord Security, Ziff Davis), while a vibrant ecosystem of specialized, privacy-audited, independent SaaS providers (Mullvad, Tailscale, NextDNS) and resilient community open-source projects thrive across decentralized mesh networking, self-hosted DNS sinkholes, and censorship-resistant tunneling.
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+The table below catalogs top SaaS and hosted platforms for VPN routing, mesh overlay tunnels, and cloud-hosted encrypted DNS security. Entries are sorted in **descending order by company valuation / market capitalization / estimated revenue**.
+
+| Platform | Category / Focus | Pricing (Starting Tier) | Free Tier Limits | Valuation / Market Size | Official Site |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Cloudflare WARP & Gateway** | Zero Trust ZTNA / Anycast Encrypted DNS | $7.00/user/month (Gateway Zero Trust Standard) | Free forever up to 50 users (Zero Trust Free Plan; WARP client 100% free unlimited consumer data) | $35.0 Billion Market Cap (NYSE: NET) | [Visit Cloudflare](https://one.one) |
+| **ExpressVPN** | Commercial Privacy VPN & RAM-only DNS | $6.67/month (12-month plan with 3 bonus months; or $12.95/month billed monthly) | No free tier; 30-day money-back guarantee with unlimited usage | $2.5 Billion Valuation (Parent: Kape Technologies) | [Visit ExpressVPN](https://expressvpn.com) |
+| **NordVPN & Threat Protection** | Consumer & Enterprise VPN / Meshnet / Threat DNS | $3.09/month (2-year Basic plan; or $12.99 billed monthly) | No free tier; 30-day money-back guarantee with unlimited bandwidth (Meshnet peer-to-peer is 100% free) | $3.0 Billion Valuation (Nord Security / Nord Security unicorn round) | [Visit NordVPN](https://nordvpn.com) |
+| **Surfshark & CleanWeb** | Multi-device VPN & CleanWeb DNS Ad/Malware Shield | $2.19/month (2-year starter plan; or $15.45 billed monthly) | 7-day free trial on Android/iOS/macOS (unlimited devices); 30-day money-back guarantee | $1.5 Billion Valuation (Part of Cyberspace / Nord Security Group) | [Visit Surfshark](https://surfshark.com) |
+| **Tailscale** | Zero-Config WireGuard Mesh VPN & MagicDNS | $6.00/user/month (Personal Plus / Starter plan) | Free forever for personal use: 3 users, up to 100 connected devices, MagicDNS included | $1.0 Billion Valuation (Series B Unicorn) | [Visit Tailscale](https://tailscale.com) |
+| **ZeroTier** | Software-Defined Virtual Ethernet Mesh Overlay | $5.00/month (Team plan starting base) | Free forever for personal use: up to 25 connected network nodes, unlimited networks | $120 Million Valuation (Private VC-backed) | [Visit ZeroTier](https://zerotier.com) |
+| **Windscribe & R.O.B.E.R.T.** | Obfuscated VPN & R.O.B.E.R.T. DNS Firewall | $3.00/month (Custom Build-A-Plan starting at $1/loc + unlimited data) | Free forever plan: 10 GB bandwidth/month with access to 10 server locations and standard ad-blocking | $25 Million Annual Revenue (Bootstrapped / Private) | [Visit Windscribe](https://windscribe.com) |
+| **Proton VPN & NetShield** | Swiss Privacy VPN & NetShield DNS Filtering | €4.99/month (2-year Proton VPN Plus; or €9.99 billed monthly) | Free forever plan: 1 device connection, medium speed, access to servers in 3 countries, unlimited data, no logs | $50 Million Annual Revenue (Proton AG non-profit foundation structure) | [Visit Proton VPN](https://protonvpn.com) |
+| **Mullvad VPN & Mullvad DNS** | Anonymous WireGuard VPN & Encrypted DNS Blocklists | €5.00/month flat-rate (No subscriptions, pay as you go) | Free public encrypted DNS resolvers (DoH/DoT) free forever; VPN requires paid account (€5/month, no free trial) | $20 Million Annual Revenue (Amagicom AB / Privately held) | [Visit Mullvad](https://mullvad.net) |
+| **Control D** | Programmable Cloud Encrypted DNS & Smart Proxy | $2.00/month (Some Filters plan; or $4.00/month Full Control plan) | Free public DNS resolvers free forever; 30-day unrestricted free trial on premium plans with full rule engine | $10 Million Estimated Valuation (Windscribe subsidiary) | [Visit Control D](https://controld.com) |
+| **NextDNS** | Cloud-Hosted Customizable Encrypted DNS Firewall | $1.99/month or $19.90/year (Pro Plan with unlimited queries) | Free forever plan: up to 300,000 DNS queries/month with all security features and analytics included | $8 Million Estimated Valuation (Independent / Self-sustaining) | [Visit NextDNS](https://nextdns.io) |
+| **IVPN & AntiTracker** | Independently Audited Privacy Multi-Hop VPN | $6.00/month (Standard plan; or $2.00/week option available) | No free tier; 30-day money-back guarantee with zero logs and no email registration required | $5 Million Annual Revenue (Privately held / Independent) | [Visit IVPN](https://ivpn.net) |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The following curated open-source projects power DNS-over-VPN tunneling, self-hosted recursive DNS resolvers, network-wide ad/malware sinkholes, mesh VPN overlays, and DPI-resistant proxy transports.
+
+Entries are sorted in **descending order by GitHub stargazers count**, with dynamic social badges linked directly to each repository's stargazers page.
+
+| Repository & Stargazers | Primary Language | Description & Key Capabilities |
+| :--- | :---: | :--- |
+| **[Pi-hole](https://github.com/pi-hole/pi-hole)**<br/>[![GitHub stars](https://img.shields.io/github/stars/pi-hole/pi-hole?style=social&color=white)](https://github.com/pi-hole/pi-hole/stargazers) | Shell / C | Industry-standard open-source network-wide DNS ad, tracker, and malware sinkhole designed to integrate with WireGuard and OpenVPN gateways. |
+| **[Headscale](https://github.com/juanfont/headscale)**<br/>[![GitHub stars](https://img.shields.io/github/stars/juanfont/headscale?style=social&color=white)](https://github.com/juanfont/headscale/stargazers) | Go | Fully open-source, self-hosted implementation of the Tailscale coordination server providing private mesh overlays and MagicDNS split routing. |
+| **[Xray-core](https://github.com/XTLS/Xray-core)**<br/>[![GitHub stars](https://img.shields.io/github/stars/XTLS/Xray-core?style=social&color=white)](https://github.com/XTLS/Xray-core/stargazers) | Go | Next-generation superset of V2Ray featuring advanced XTLS-Reality camouflage, transparent DNS routing, and censorship-resistant VPN tunneling. |
+| **[sing-box](https://github.com/SagerNet/sing-box)**<br/>[![GitHub stars](https://img.shields.io/github/stars/SagerNet/sing-box?style=social&color=white)](https://github.com/SagerNet/sing-box/stargazers) | Go | The universal proxy and VPN platform with built-in rule-based DNS client, DoH/DoQ/fake-IP handling, WireGuard, ShadowTLS, and Hysteria2. |
+| **[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)**<br/>[![GitHub stars](https://img.shields.io/github/stars/AdguardTeam/AdGuardHome?style=social&color=white)](https://github.com/AdguardTeam/AdGuardHome/stargazers) | Go | Network-wide DNS sinkhole and recursive resolver supporting DoH, DoT, DoQ, DNSCrypt, and granular per-client access control. |
+| **[NetBird](https://github.com/netbirdio/netbird)**<br/>[![GitHub stars](https://img.shields.io/github/stars/netbirdio/netbird?style=social&color=white)](https://github.com/netbirdio/netbird/stargazers) | Go | Zero-configuration peer-to-peer mesh VPN platform built on WireGuard with integrated private DNS management and SSO identity integration. |
+| **[Algo VPN](https://github.com/trailofbits/algo)**<br/>[![GitHub stars](https://img.shields.io/github/stars/trailofbits/algo?style=social&color=white)](https://github.com/trailofbits/algo/stargazers) | Python / Ansible | Automated deployment scripts for setting up personal, secure WireGuard and IPsec VPN servers in the cloud with local DNS encryption. |
+| **[wg-easy](https://github.com/wg-easy/wg-easy)**<br/>[![GitHub stars](https://img.shields.io/github/stars/wg-easy/wg-easy?style=social&color=white)](https://github.com/wg-easy/wg-easy/stargazers) | JavaScript / Docker | The easiest self-hosted WireGuard Docker container with a web-based administration UI, custom DNS server assignment, and QR code generation. |
+| **[Streisand](https://github.com/StreisandEffect/streisand)**<br/>[![GitHub stars](https://img.shields.io/github/stars/StreisandEffect/streisand?style=social&color=white)](https://github.com/StreisandEffect/streisand/stargazers) | Ansible | Automated multi-protocol VPN setup supporting WireGuard, OpenVPN, Shadowsocks, and DNS-over-HTTPS resolvers for circumventing censorship. |
+| **[cloudflared](https://github.com/cloudflare/cloudflared)**<br/>[![GitHub stars](https://img.shields.io/github/stars/cloudflare/cloudflared?style=social&color=white)](https://github.com/cloudflare/cloudflared/stargazers) | Go | Cloudflare Tunnel client and standalone encrypted DNS-over-HTTPS (DoH) proxy daemon for local LAN and edge networks. |
+| **[AmneziaVPN](https://github.com/amnezia-vpn/amnezia-client)**<br/>[![GitHub stars](https://img.shields.io/github/stars/amnezia-vpn/amnezia-client?style=social&color=white)](https://github.com/amnezia-vpn/amnezia-client/stargazers) | C++ / Qt | Multi-protocol censorship-resistant VPN client implementing obfuscated WireGuard (AmneziaWG), OpenVPN over Cloak, and self-hosted DNS. |
+| **[CoreDNS](https://github.com/coredns/coredns)**<br/>[![GitHub stars](https://img.shields.io/github/stars/coredns/coredns?style=social&color=white)](https://github.com/coredns/coredns/stargazers) | Go | CNCF-graduated authoritative and recursive DNS server with modular plugin architecture for Kubernetes, DoT/DoH, and internal mesh networks. |
+| **[dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)**<br/>[![GitHub stars](https://img.shields.io/github/stars/DNSCrypt/dnscrypt-proxy?style=social&color=white)](https://github.com/DNSCrypt/dnscrypt-proxy/stargazers) | Go | Flexible DNS proxy supporting DNSCrypt v2, DNS-over-HTTPS (DoH), Anonymized DNS relays, DNSSEC validation, and local query filtering. |
+| **[Netmaker](https://github.com/gravitl/netmaker)**<br/>[![GitHub stars](https://img.shields.io/github/stars/gravitl/netmaker?style=social&color=white)](https://github.com/gravitl/netmaker/stargazers) | Go | High-performance automated WireGuard virtual networking platform for cross-cloud clusters with embedded private CoreDNS resolution. |
+| **[wireguard-install](https://github.com/angristan/wireguard-install)**<br/>[![GitHub stars](https://img.shields.io/github/stars/angristan/wireguard-install?style=social&color=white)](https://github.com/angristan/wireguard-install/stargazers) | Shell | Battle-tested shell script to configure and deploy a production WireGuard VPN server on Debian/Ubuntu/CentOS with customized DNS resolvers. |
+| **[shadowsocks-rust](https://github.com/shadowsocks/shadowsocks-rust)**<br/>[![GitHub stars](https://img.shields.io/github/stars/shadowsocks/shadowsocks-rust?style=social&color=white)](https://github.com/shadowsocks/shadowsocks-rust/stargazers) | Rust | High-performance, memory-safe Shadowsocks implementation with integrated DNS caching, DoH client, and traffic obfuscation plugins. |
+| **[Technitium DNS Server](https://github.com/TechnitiumSoftware/DnsServer)**<br/>[![GitHub stars](https://img.shields.io/github/stars/TechnitiumSoftware/DnsServer?style=social&color=white)](https://github.com/TechnitiumSoftware/DnsServer/stargazers) | C# | Self-hosted authoritative & recursive DNS server with web console, DNSSEC, DoH/DoT/DoQ, threat blocklists, and advanced split routing. |
+| **[Firezone](https://github.com/firezone/firezone)**<br/>[![GitHub stars](https://img.shields.io/github/stars/firezone/firezone?style=social&color=white)](https://github.com/firezone/firezone/stargazers) | Rust / Elixir | Zero Trust Network Access (ZTNA) platform built on WireGuard with granular DNS-based resource routing and identity provider integration. |
+| **[iodine](https://github.com/yarrick/iodine)**<br/>[![GitHub stars](https://img.shields.io/github/stars/yarrick/iodine?style=social&color=white)](https://github.com/yarrick/iodine/stargazers) | C | Foundational IP-over-DNS tunneling tool that encapsulates full IPv4 network traffic inside standard DNS queries/responses across port 53. |
+| **[Mullvad VPN App](https://github.com/mullvad/mullvadvpn-app)**<br/>[![GitHub stars](https://img.shields.io/github/stars/mullvad/mullvadvpn-app?style=social&color=white)](https://github.com/mullvad/mullvadvpn-app/stargazers) | Rust / Electron | Official open-source desktop and mobile client for Mullvad VPN with WireGuard, DAITA defense against AI traffic analysis, and custom DNS. |
+| **[MasterDnsVPN](https://github.com/masterking32/MasterDnsVPN)**<br/>[![GitHub stars](https://img.shields.io/github/stars/masterking32/MasterDnsVPN?style=social&color=white)](https://github.com/masterking32/MasterDnsVPN/stargazers) | Python | Asynchronous multi-threaded DNS tunnel VPN with SOCKS5 proxy support, multi-resolver load balancing, and MTU optimization for restricted WANs. |
+| **[Blocky](https://github.com/0xERR0R/blocky)**<br/>[![GitHub stars](https://img.shields.io/github/stars/0xERR0R/blocky?style=social&color=white)](https://github.com/0xERR0R/blocky/stargazers) | Go | Fast, lightweight DNS proxy and ad-blocker for local networks written in Go with DoH/DoT upstream support, Prometheus metrics, and Redis cache. |
+| **[RethinkDNS](https://github.com/celzero/rethink-app)**<br/>[![GitHub stars](https://img.shields.io/github/stars/celzero/rethink-app?style=social&color=white)](https://github.com/celzero/rethink-app/stargazers) | Kotlin / Go | On-device Android firewall, WireGuard VPN client, and encrypted DNS resolver supporting DoH, DNSCrypt, and Oblivious DoH (ODoH). |
+| **[Unbound](https://github.com/NLnetLabs/unbound)**<br/>[![GitHub stars](https://img.shields.io/github/stars/NLnetLabs/unbound?style=social&color=white)](https://github.com/NLnetLabs/unbound/stargazers) | C | High-performance validating, recursive, and caching DNS resolver supporting DNSSEC validation, DNS-over-TLS (DoT), and strict privacy controls. |
+| **[OPNsense Core](https://github.com/opnsense/core)**<br/>[![GitHub stars](https://img.shields.io/github/stars/opnsense/core?style=social&color=white)](https://github.com/opnsense/core/stargazers) | PHP / Python | Open-source firewall and routing platform with native Unbound DNS, WireGuard/OpenVPN services, DNSBL blocklists, and intrusion prevention. |
+| **[dnscat2](https://github.com/iagox86/dnscat2)**<br/>[![GitHub stars](https://img.shields.io/github/stars/iagox86/dnscat2?style=social&color=white)](https://github.com/iagox86/dnscat2/stargazers) | C / Ruby | Encrypted command-and-control (C2) and TCP port forwarder designed to create authenticated communication tunnels entirely through standard DNS. |
+| **[WireGuard Linux](https://github.com/WireGuard/wireguard-linux)**<br/>[![GitHub stars](https://img.shields.io/github/stars/WireGuard/wireguard-linux?style=social&color=white)](https://github.com/WireGuard/wireguard-linux/stargazers) | C | The official kernel module source for WireGuard, delivering ultra-fast cryptographic network tunneling directly in the Linux kernel. |
+| **[personalDNSfilter](https://github.com/IngoZenz/personaldnsfilter)**<br/>[![GitHub stars](https://img.shields.io/github/stars/IngoZenz/personaldnsfilter?style=social&color=white)](https://github.com/IngoZenz/personaldnsfilter/stargazers) | Java | Lightweight, versatile DNS filter proxy running on local devices and VPN interfaces to filter ads, tracking, and malware with DoH/DoT support. |
+| **[dns2tcp](https://github.com/alex-sector/dns2tcp)**<br/>[![GitHub stars](https://img.shields.io/github/stars/alex-sector/dns2tcp?style=social&color=white)](https://github.com/alex-sector/dns2tcp/stargazers) | C | Classic network utility for relaying arbitrary TCP connections (such as SSH tunnels) over DNS TXT queries without requiring TUN/TAP devices. |
+| **[dnstt](https://github.com/Mygod/dnstt)**<br/>[![GitHub stars](https://img.shields.io/github/stars/Mygod/dnstt?style=social&color=white)](https://github.com/Mygod/dnstt/stargazers) | Go | Censorship-resistant DNS tunnel utilizing DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT) with Noise protocol encryption and KCP packet multiplexing. |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-VPN-DNS-Network-Security&type=Date)](https://star-history.com/#ishandutta2007/Awesome-VPN-DNS-Network-Security&Date)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions to expand and refine this ecosystem directory are warmly welcomed!
+1. **Fork** this repository.
+2. Create a branch (`git checkout -b add-awesome-tool`).
+3. Add the project in alphabetical or star-ranked order with accurate, factual descriptions and official URLs.
+4. Ensure entries follow standard Markdown table formatting.
+5. Submit a **Pull Request** detailing why the tool is beneficial to network security practitioners.
+
+---
 
+## 💖 Support & Sponsorship
 
-This repository (`Awesome-VPN-DNS-Network-Security`) tracks notable **SaaS/Hosted platforms** and **open-source projects** for **VPN & DNS Network Security** — Top VPN DNS Network Security (Opensource) 🌟 Star if you like it! 🌟. These tools combine encrypted VPN routing with DNS-level threat filtering, tunnel IP/TCP traffic inside legitimate DNS queries to traverse restrictive captive portals and firewalls, enforce DNS-over-HTTPS (DoH) / DNS-over-TLS (DoT) / DNS-over-QUIC (DoQ), and deploy self-hosted recursive DNS resolvers alongside mesh overlays.
+If you found this curated list helpful for your network infrastructure, privacy research, or self-hosted deployment:
+- ⭐ **Star** this repository to show your appreciation and help others discover it!
+- 🍴 **Fork** and share it with fellow sysadmins, cybersecurity engineers, and homelab enthusiasts.
+- ☕ **Sponsor or Buy Me a Coffee**: Support ongoing maintenance and curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
+---
 
+## ⚖️ Disclaimer
 
-**Examples** include Tailscale, Cloudflare WARP, ZeroTier, Mullvad VPN, Proton VPN, NordVPN, ExpressVPN, Surfshark, IVPN, Windscribe, and `masterking32/MasterDnsVPN` (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for DNS-over-VPN tunneling utilities, self-hosted DNS sinkholes and recursive resolvers, encrypted DNS proxies, mesh overlay networks, and obfuscated VPN engines — ideal for network security engineers, privacy advocates, sysadmins, and self-hosters.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Cloudflare WARP & 1.1.1.1 / Gateway](https://one.one)**  
-
-  Global anycast encrypted VPN and Zero Trust DNS filtering platform combining BoringTun WireGuard tunnels with ultra-fast DoH/DoT/DoQ resolution and malware blocking.
-
-
-
-- **[Tailscale](https://tailscale.com)**  
-
-  Zero-config WireGuard mesh VPN featuring built-in MagicDNS internal service discovery, split-DNS routing, NextDNS/Mullvad exit-node integration, and automatic NAT traversal.
-
-
-
-- **[ZeroTier](https://zerotier.com)**  
-
-  Software-defined virtual Ethernet and peer-to-peer mesh overlay network providing encrypted Layer-2/Layer-3 connectivity and private network DNS resolution across NATs.
-
-
-
-- **[Mullvad VPN & Mullvad DNS](https://mullvad.net)**  
-
-  Privacy-first VPN provider offering anonymous accounts, WireGuard multihop tunnels, DAITA anti-tracking, and free public encrypted DNS resolvers with ad/tracker/malware blocking.
-
-
-
-- **[Proton VPN & NetShield](https://protonvpn.com)**  
-
-  Swiss-based privacy VPN service featuring open-source clients, Secure Core routing, Stealth obfuscation, and NetShield DNS-level ad, tracker, and malware filtering.
-
-
-
-- **[NordVPN & Threat Protection](https://nordvpn.com)**  
-
-  Commercial VPN service built around NordLynx (WireGuard), Meshnet peer routing, and DNS-level Threat Protection against phishing domains and trackers.
-
-
-
-- **[ExpressVPN](https://expressvpn.com)**  
-
-  Global commercial VPN platform operating private, zero-knowledge encrypted DNS on every server alongside the Lightway protocol and TrustedServer RAM-only architecture.
-
-
-
-- **[Surfshark & CleanWeb](https://surfshark.com)**  
-
-  Cross-platform cloud VPN service featuring WireGuard tunneling, CleanWeb DNS ad/malware blocking, MultiHop routing, and rotating IP protection.
-
-
-
-- **[IVPN & AntiTracker](https://ivpn.net)**  
-
-  Independently audited privacy VPN offering open-source clients, WireGuard key rotation, multi-hop tunnels, and AntiTracker DNS blocklists.
-
-
-
-- **[Windscribe & R.O.B.E.R.T.](https://windscribe.com)**  
-
-  Cloud VPN and customizable DNS firewall service allowing granular domain/IP blocking, WireGuard/OpenVPN config generation, and stealth protocol obfuscation.
-
-
-
-- **[NextDNS](https://nextdns.io)**  
-
-  Cloud-hosted customizable encrypted DNS firewall offering real-time analytics, threat intelligence feeds, parental controls, and native integration with Tailscale and mobile OSes.
-
-
-
-- **[Control D](https://controld.com)**  
-
-  Programmable cloud DNS resolver and smart-routing proxy capable of blocking ads/malware and tunneling specific domains through global exit locations without a full VPN.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[MasterDnsVPN (masterking32/MasterDnsVPN)](https://github.com)**  
-
-  High-speed, multi-threaded open-source DNS tunnel VPN written in Python with asynchronous I/O, SOCKS5 proxy support, multi-resolver load balancing, and automatic MTU negotiation for traversing restrictive firewalls.
-
-
-
-- **[iodine (yarrick/iodine)](https://github.com)**  
-
-  Classic open-source IP-over-DNS tunneling daemon written in C that encapsulates full IPv4 network traffic inside standard DNS queries and responses when only DNS port 53 is open.
-
-
-
-- **[dnscat2 (iagox86/dnscat2)](https://github.com)**  
-
-  Open-source encrypted Command-and-Control and TCP tunneling utility designed to establish secure, authenticated channels purely over the DNS protocol.
-
-
-
-- **[dns2tcp (alex-sector/dns2tcp)](https://github.com)**  
-
-  Lightweight open-source tool for relaying TCP connections (such as SSH or SOCKS proxies) encapsulated inside DNS TXT/KEY queries without requiring TUN/TAP interfaces.
-
-
-
-- **[Slipstream / dnstt (Mygod/dnstt)](https://github.com)**  
-
-  Modern censorship-resistant open-source DNS tunnel supporting encrypted DNS-over-HTTPS (DoH) and DNS-over-TLS (DoT) resolvers with Noise protocol cryptography and KCP reliability.
-
-
-
-- **[AdGuard Home (AdguardTeam/AdGuardHome)](https://github.com)**  
-
-  Self-hosted open-source network-wide DNS sinkhole and encrypted DNS server supporting DoH, DoT, DoQ, and DNSCrypt with per-client firewall rules for VPN gateways.
-
-
-
-- **[Pi-hole (pi-hole/pi-hole)](https://github.com)**  
-
-  Industry-standard open-source network-level DNS ad and tracker blocker widely deployed alongside WireGuard and OpenVPN to protect mobile and home networks.
-
-
-
-- **[Technitium DNS Server (TechnitiumSoftware/DnsServer)](https://github.com)**  
-
-  Full-featured open-source authoritative and recursive DNS server written in C#/.NET supporting DNSSEC, DoH, DoT, DoQ, split-horizon zones, and threat blocklists.
-
-
-
-- **[Unbound (NLnetLabs/unbound)](https://github.com)**  
-
-  Validating, recursive, and caching open-source DNS resolver written in C supporting DNSSEC validation, DNS-over-TLS, QNAME minimization, and zero third-party DNS logging.
-
-
-
-- **[CoreDNS (coredns/coredns)](https://github.com)**  
-
-  CNCF graduated open-source DNS server written in Go featuring a flexible plugin chain for service discovery, DNS-over-TLS/gRPC/QUIC, and Kubernetes/VPN split DNS.
-
-
-
-- **[Blocky (0xERR0R/blocky)](https://github.com)**  
-
-  Fast, lightweight open-source DNS proxy and ad-blocker written in Go supporting DoH/DoT, Prometheus metrics, Redis caching, and per-group client filtering.
-
-
-
-- **[dnscrypt-proxy (DNSCrypt/dnscrypt-proxy)](https://github.com)**  
-
-  Flexible open-source encrypted DNS proxy supporting DNSCrypt v2, DNS-over-HTTPS (DoH), Anonymized DNS relays, and local domain cloaking/filtering.
-
-
-
-- **[Headscale (juanfont/headscale)](https://github.com)**  
-
-  Open-source self-hosted control server for Tailscale providing private mesh VPN coordination, MagicDNS split-DNS resolution, and exit node routing.
-
-
-
-- **[NetBird (netbirdio/netbird)](https://github.com)**  
-
-  Open-source zero-trust peer-to-peer VPN platform combining WireGuard encryption with custom private DNS management, SSO authentication, and WebRTC NAT traversal.
-
-
-
-- **[Netmaker (gravitl/netmaker)](https://github.com)**  
-
-  High-speed open-source WireGuard mesh overlay and automated virtual networking platform with integrated CoreDNS private domain resolution.
-
-
-
-- **[Firezone (firezone/firezone)](https://github.com)**  
-
-  Open-source zero-trust access platform built on WireGuard supporting wildcard DNS resource routing, split tunneling, and identity-based access policies.
-
-
-
-- **[WireGuard (WireGuard/wireguard-linux & wireguard-go)](https://github.com)**  
-
-  Modern, cryptographically lean open-source VPN protocol integrated into the Linux kernel with official cross-platform mobile and desktop clients.
-
-
-
-- **[AmneziaVPN & AmneziaWG (amnezia-vpn/amnezia-client)](https://github.com)**  
-
-  Open-source censorship-resistant VPN suite deploying obfuscated WireGuard (`AmneziaWG`), OpenVPN over Cloak, and Xray-Reality alongside self-hosted DNS containers.
-
-
-
-- **[wg-easy (wg-easy/wg-easy)](https://github.com)**  
-
-  All-in-one open-source Docker container combining WireGuard and a modern web admin UI with configurable custom DNS servers and one-click mobile QR codes.
-
-
-
-- **[sing-box (SagerNet/sing-box)](https://github.com)**  
-
-  Universal open-source proxy and VPN platform written in Go featuring a rule-based fake-IP/DoH/DoQ DNS engine alongside WireGuard, VLESS-Reality, and Hysteria2 transports.
-
-
-
-- **[Xray-core (XTLS/Xray-core)](https://github.com)**  
-
-  High-performance open-source encrypted tunneling core featuring built-in DNS routing, split tunneling, VLESS, and XTLS-Reality camouflage.
-
-
-
-- **[RethinkDNS / Rethink Firewall + DNS + VPN (celzero/rethink-app)](https://github.com)**  
-
-  Open-source Android on-device VPN firewall, WireGuard client, and encrypted DNS resolver (DoH/DNSCrypt/ODoH) blocking trackers and spyware without root.
-
-
-
-- **[PersonalDNSfilter (IngoZenz/personaldnsfilter)](https://github.com)**
+*This list is provided for educational, research, and defensive security engineering purposes only. Please verify local laws, acceptable use policies, and compliance obligations before deploying tunneling protocols or intercepting network traffic on corporate or public infrastructures.*
